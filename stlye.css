@@ -160,3 +160,42 @@ body {
         margin-bottom: 3px;
     }
 }
+@media screen and (max-width:388px) {
+    .main {
+        height: 450px;
+        margin-top: 10px
+    }
+
+    .btn {
+        height: 55px;
+        width: 60px;
+        font-size: 14px;
+        margin-left: 13px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+    }
+}
+@media screen and (max-width:366px) {
+    .btn {
+        height: 55px;
+        width: 55px;
+        font-size: 14px;
+        margin-left: 13px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+    }
+}
+@media screen and (max-width:344px) {
+    .main {
+        height: 430px;
+        margin-top: 10px
+    }
+    .btn {
+        height: 50px;
+        width: 50px;
+        font-size: 14px;
+        margin-left: 13px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+    }
+}
