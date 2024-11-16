@@ -19,7 +19,7 @@
                 <br>
                 <div class="button-box">
                     <input type="button" class="btn a" value="C" onclick="cal.display.value = ''" id="bg">
-                    <button type="button" class="btn a" value="delete" onclick="deleteLast()" id="bg">
+                    <button type="button" class="btn a" value="delete" onclick="cal.display.value = display.value.toString().slice(0,-1)" id="bg">
                         <i class="fa-solid fa-delete-left"></i>
                     </button>
                     <input type="button" class="btn a" value="+/-" onclick="cal.display.value += '+/-'" id="bg">
@@ -50,12 +50,5 @@
         </form>
     </div>
 </body>
-
-<script>
-    function deleteLast() {
-        let display = document.getElementById('display');
-        display.value = display.value.slice(0, -1);
-    }
-</script>
-
+    
 </html>
