@@ -22,8 +22,8 @@
                     <button type="button" class="btn a" value="delete" onclick="cal.display.value = display.value.toString().slice(0,-1)" id="bg">
                         <i class="fa-solid fa-delete-left"></i>
                     </button>
-                    <input type="button" class="btn a" value="+/-" onclick="cal.display.value += '+/-'" id="bg">
-                    <input type="button" class="btn a" value="%" onclick="cal.display.value += '%'" id="color">
+                    <input type="button" class="btn a" value="%" onclick="cal.display.value += '%'" id="bg">
+                    <input type="button" class="btn a" value="/" onclick="cal.display.value += '/'" id="color">
                     <br>
                     <input type="button" class="btn" value="7" onclick="cal.display.value += '7'">
                     <input type="button" class="btn" value="8" onclick="cal.display.value += '8'">
@@ -40,9 +40,9 @@
                     <input type="button" class="btn" value="3" onclick="cal.display.value += '3'">
                     <input type="button" class="btn a" value="x" onclick="cal.display.value += '*'" id="color">
                     <br>
-                    <input type="button" class="btn" value="0" onclick="cal.display.value += '0'">
+                    <input type="button" class="btn" value="00" onclick="cal.display.value += '00'">
+                    <input type="button" class="btn a" value="0" onclick="cal.display.value += '0'">
                     <input type="button" class="btn a" value="." onclick="cal.display.value += '.'">
-                    <input type="button" class="btn a" value="/" onclick="cal.display.value += '/'">
                     <input type="button" class="btn a" value="=" onclick="cal.display.value = eval(cal.display.value)"
                         id="color">
                 </div>
@@ -50,5 +50,5 @@
         </form>
     </div>
 </body>
-    
+
 </html>
