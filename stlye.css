@@ -104,7 +104,7 @@ body {
 @media screen and (max-width: 480px) {
     .main {
         width: 90%;
-        height: 480px;
+        height: 490px;
         margin-top: 10px;
     }
 
@@ -116,7 +116,7 @@ body {
     .btn {
         height: 65px;
         width: 68px;
-        font-size: 16px;
+        font-size: 20px;
         margin-left: 22px;
         margin-top: 5px;
         margin-bottom: 3px;
@@ -141,20 +141,28 @@ body {
 }
 
 @media screen and (max-width:441px) {
+    .main {
+        height: 495px;
+        margin-top: 10px
+    }
     .btn {
-        height: 60px;
+        height: 65px;
         width: 70px;
-        font-size: 14px;
+        font-size: 20px;
         margin-left: 13px;
         margin-top: 5px;
         margin-bottom: 3px;
     }
 }
 @media screen and (max-width:410px) {
+    .main {
+        height: 500px;
+        margin-top: 10px
+    }
     .btn {
-        height: 60px;
+        height: 65px;
         width: 65px;
-        font-size: 14px;
+        font-size: 19px;
         margin-left: 13px;
         margin-top: 8px;
         margin-bottom: 3px;
@@ -162,24 +170,28 @@ body {
 }
 @media screen and (max-width:388px) {
     .main {
-        height: 450px;
+        height: 475px;
         margin-top: 10px
     }
 
     .btn {
-        height: 55px;
+        height: 60px;
         width: 60px;
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 13px;
         margin-top: 8px;
         margin-bottom: 3px;
     }
 }
 @media screen and (max-width:366px) {
+    .main {
+        height: 455px;
+        margin-top: 10px
+    }
     .btn {
         height: 55px;
         width: 55px;
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 13px;
         margin-top: 8px;
         margin-bottom: 3px;
@@ -193,7 +205,7 @@ body {
     .btn {
         height: 50px;
         width: 50px;
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 13px;
         margin-top: 8px;
         margin-bottom: 3px;
@@ -201,27 +213,27 @@ body {
 }
 @media screen and (max-width:321px) {
     .main {
-        height: 400px;
+        height: 396px;
         margin-top: 10px
     }
     .btn {
         height: 45px;
         width: 45px;
-        font-size: 14px;
-        margin-left: 13px;
+        font-size: 17px;
+        margin-left: 12px;
         margin-top: 8px;
         margin-bottom: 3px;
     }
 }
 @media screen and (max-width:299px) {
     .main {
-        height: 375px;
+        height: 370px;
         margin-top: 10px
     }
     .btn {
         height: 40px;
         width: 40px;
-        font-size: 14px;
+        font-size: 16px;
         margin-left: 13px;
         margin-top: 8px;
         margin-bottom: 3px;
