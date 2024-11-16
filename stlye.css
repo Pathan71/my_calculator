@@ -188,6 +188,10 @@ body {
         height: 455px;
         margin-top: 10px
     }
+    #display {
+        height: 4.8rem;
+        font-size: 35px;
+    }
     .btn {
         height: 55px;
         width: 55px;
