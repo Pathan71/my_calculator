@@ -202,10 +202,14 @@ body {
         height: 430px;
         margin-top: 10px
     }
+    #display {
+        height: 4.8rem;
+        font-size: 35px;
+    }
     .btn {
         height: 50px;
         width: 50px;
-        font-size: 16px;
+        font-size: 18px;
         margin-left: 13px;
         margin-top: 8px;
         margin-bottom: 3px;
