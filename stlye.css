@@ -216,6 +216,10 @@ body {
         height: 396px;
         margin-top: 10px
     }
+    #display {
+        height: 4.3rem;
+        font-size: 30px;
+    }
     .btn {
         height: 45px;
         width: 45px;
@@ -229,6 +233,10 @@ body {
     .main {
         height: 370px;
         margin-top: 10px
+    }
+    #display {
+        height: 4.20rem;
+        font-size: 28px;
     }
     .btn {
         height: 40px;
